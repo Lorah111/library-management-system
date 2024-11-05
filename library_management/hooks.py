@@ -9,28 +9,28 @@ app_license = "mit"
 # ------------------
 
 # required_apps = []
-
-# Each item in the list will be shown as an app in the apps page
-# add_to_apps_screen = [
-# 	{
-# 		"name": "library_management",
-# 		"logo": "/assets/library_management/logo.png",
-# 		"title": "Library Management",
+ #    add_to_apps_screen = [
+#	{
+#		"name": "library_management",
+#		"logo": "/assets/library_management/logo.png",
+#		"title": "Library Management",
 # 		"route": "/library_management",
-# 		"has_permission": "library_management.api.permission.has_app_permission"
-# 	}
-# ]
+#		"has_permission": "library_management.api.permission.has_app_permission"
+#	}
+ #]
+# Each item in the list will be shown as an app in the apps page
+
 
 # Includes in <head>
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/library_management/css/library_management.css"
-# app_include_js = "/assets/library_management/js/library_management.js"
+  #app_include_css = "/assets/library_management/css/library_management.css"
+ # app_include_js = "/assets/library_management/js/library_management.js"
 
 # include js, css files in header of web template
-# web_include_css = "/assets/library_management/css/library_management.css"
-# web_include_js = "/assets/library_management/js/library_management.js"
+ # web_include_css = "/assets/library_management/css/library_management.css"
+  #web_include_js = "/assets/library_management/js/library_management.js"
 
 # include custom scss in every website theme (without file extension ".scss")
 # website_theme_scss = "library_management/public/scss/website"

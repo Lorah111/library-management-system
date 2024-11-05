@@ -1,0 +1,104 @@
+{
+ "app": "frappe",
+ "charts": [],
+ "content": "[{\"id\":\"bzJHAr4U7i\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Library</span>\",\"col\":12}},{\"id\":\"dhta8FVPSw\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Library Setting\",\"col\":3}},{\"id\":\"ppRkm-48yW\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Library Member\",\"col\":3}},{\"id\":\"0OxVXWEfGf\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Library Membership\",\"col\":3}},{\"id\":\"TzVvKWjq6c\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Articles\",\"col\":3}},{\"id\":\"VXd73tttqs\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"vqSBKyvbFx\",\"type\":\"card\",\"data\":{\"card_name\":\"List\",\"col\":4}}]",
+ "creation": "2024-11-03 02:09:00.704450",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "organization",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Library",
+ "link_type": "DocType",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "List",
+   "link_count": 3,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Article",
+   "link_count": 0,
+   "link_to": "Article",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Library Member",
+   "link_count": 0,
+   "link_to": "Library Member",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Library Transaction",
+   "link_count": 0,
+   "link_to": "Library Transaction",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2024-11-04 13:02:34.433321",
+ "modified_by": "Administrator",
+ "module": "Library Management",
+ "name": "Library",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 1.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Library Setting",
+   "link_to": "Library Setting",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Articles",
+   "link_to": "Article",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Cyan",
+   "doc_view": "List",
+   "label": "Library Member",
+   "link_to": "Library Member",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "label": "Library Membership",
+   "link_to": "Library Membership",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "Library",
+ "type": "Workspace"
+}
